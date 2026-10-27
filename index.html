@@ -1,33 +1,40 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Bhumik Khandelwal | Portfolio</title>
 
-    <meta name="description"
-          content="Bhumik Khandelwal's portfolio featuring programming, web development, AI, and data science projects.">
+    <meta
+        name="description"
+        content="Bhumik Khandelwal's portfolio featuring programming, web development, AI, and data science projects."
+    >
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- Apply the saved theme before the page renders -->
+    <!-- Apply saved theme before page loads -->
     <script>
         try {
             if (localStorage.getItem("theme") === "dark") {
                 document.documentElement.classList.add("dark");
             }
         } catch (error) {
-            // Use the default theme if storage is unavailable.
+            console.log("Theme preference unavailable.");
         }
     </script>
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
     <header class="navbar">
+
         <div class="nav-inner">
 
             <a href="#home" class="logo">
@@ -35,11 +42,13 @@
             </a>
 
             <nav class="nav-links" id="navLinks">
+
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
+
             </nav>
 
             <div class="header-buttons">
@@ -65,96 +74,152 @@
                 </button>
 
             </div>
+
         </div>
+
     </header>
 
 
+    <!-- =========================================
+         MAIN CONTENT
+    ========================================== -->
+
     <main>
 
-        <!-- Home -->
+        <!-- =====================================
+             HOME
+        ====================================== -->
+
         <section id="home" class="section home">
+
             <div class="container">
 
-                <p class="eyebrow">Personal Portfolio</p>
+                <p class="eyebrow">
+                    Personal Portfolio
+                </p>
 
-                <h1>Hello, I am Bhumik Khandelwal</h1>
+                <h1>
+                    Hello, I am Bhumik Khandelwal
+                </h1>
 
                 <p class="lead">
-                    B.Tech student interested in technology, programming,
-                    web development, and artificial intelligence.
+                    B.Tech student interested in programming,
+                    web development, artificial intelligence,
+                    and modern technology.
                 </p>
 
                 <div class="home-actions">
-                    <a class="btn primary" href="#projects">
+
+                    <a
+                        class="btn primary"
+                        href="#projects"
+                    >
                         View Projects
                     </a>
 
-                    <a class="btn secondary" href="#about">
+                    <a
+                        class="btn secondary"
+                        href="#about"
+                    >
                         About Me
                     </a>
+
                 </div>
 
             </div>
+
         </section>
 
 
-        <!-- About -->
+        <!-- =====================================
+             ABOUT
+        ====================================== -->
+
         <section id="about" class="section">
+
             <div class="container">
 
-                <h2>About Me</h2>
+                <h2>
+                    About Me
+                </h2>
 
                 <p>
-                    My name is Bhumik Khandelwal. I am pursuing a
-                    B.Tech degree and developing my skills in programming,
-                    web development, and modern technologies.
+                    My name is Bhumik Khandelwal. I am pursuing
+                    a B.Tech degree and developing my skills in
+                    programming, web development, and modern
+                    technologies.
                 </p>
 
                 <p>
-                    I enjoy learning new technologies, building projects,
-                    solving programming problems, and improving my
-                    technical knowledge through practical work.
+                    I enjoy learning new technologies, building
+                    projects, solving programming problems, and
+                    improving my technical knowledge through
+                    practical work.
                 </p>
 
             </div>
+
         </section>
 
 
-        <!-- Skills -->
+        <!-- =====================================
+             SKILLS
+        ====================================== -->
+
         <section id="skills" class="section alt">
+
             <div class="container">
 
-                <h2>Skills</h2>
+                <h2>
+                    Skills
+                </h2>
 
                 <p class="section-intro">
-                    These are the skills I am currently learning and using.
+                    These are the skills I am currently learning
+                    and using.
                 </p>
 
                 <ul class="skill-list">
+
                     <li>Python</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>NumPy</li>
                     <li>Machine Learning Basics</li>
+
                 </ul>
 
             </div>
+
         </section>
 
 
-        <!-- Projects -->
+        <!-- =====================================
+             PROJECTS
+        ====================================== -->
+
         <section id="projects" class="section">
+
             <div class="container">
 
-                <h2>Projects</h2>
+                <h2>
+                    Projects
+                </h2>
 
                 <p class="section-intro">
-                    Search the cards below to explore my projects.
+                    Explore the projects I have worked on.
+                    Use the search box to find a project.
                 </p>
 
-                <label class="search-label" for="projectSearch">
-                    Search projects
+
+                <!-- Project Search -->
+
+                <label
+                    class="search-label"
+                    for="projectSearch"
+                >
+                    Search Projects
                 </label>
 
                 <input
@@ -165,11 +230,21 @@
                     autocomplete="off"
                 >
 
-                <!-- Project cards are generated by script.js -->
+
+                <!--
+                    IMPORTANT:
+
+                    script.js finds this exact ID
+                    and creates all five project cards here.
+                -->
+
                 <div
                     class="project-grid"
                     id="projectGrid"
                 ></div>
+
+
+                <!-- Shown when search finds nothing -->
 
                 <p
                     class="empty-msg"
@@ -180,49 +255,66 @@
                 </p>
 
             </div>
+
         </section>
 
 
-        <!-- Contact -->
+        <!-- =====================================
+             CONTACT
+        ====================================== -->
+
         <section id="contact" class="section alt">
+
             <div class="container">
 
-                <h2>Contact</h2>
+                <h2>
+                    Contact
+                </h2>
 
                 <p>
-                    If you would like to get in touch with Bhumik,
-                    you can contact him using the details below.
+                    If you would like to get in touch with
+                    Bhumik, you can contact him using the
+                    details below.
                 </p>
 
                 <p>
                     <strong>Phone:</strong>
+
                     <a href="tel:+918209952847">
                         8209952847
                     </a>
                 </p>
 
             </div>
+
         </section>
 
     </main>
 
 
-    <!-- Groq AI Portfolio Chatbot -->
+    <!-- =========================================
+         AI PORTFOLIO CHATBOT
+    ========================================== -->
+
     <section
         id="portfolio-chatbot"
         class="chatbot-section"
         aria-labelledby="chatbotTitle"
     >
+
         <div class="container">
 
             <h2 id="chatbotTitle">
-                Ask My Portfolio Chatbot
+                Ask Bhumik's Portfolio Chatbot
             </h2>
 
             <p>
-                Ask questions about my skills, projects, education,
-                programming, or technology.
+                Ask questions about Bhumik's skills,
+                projects, education, programming, or technology.
             </p>
+
+
+            <!-- Chat Messages -->
 
             <div
                 id="chatMessages"
@@ -230,37 +322,58 @@
                 aria-live="polite"
                 aria-relevant="additions"
             >
-                <p class="bot-message">
-                    Hello! 👋 I'm Bhumik's AI assistant.
-                    How can I help you?
-                </p>
+
+                <div class="bot-message">
+
+                    <p>
+                        Hello! 👋 I'm Bhumik's AI assistant.
+                        How can I help you?
+                    </p>
+
+                </div>
+
             </div>
+
+
+            <!-- Chat Form -->
 
             <form
                 id="chatForm"
                 class="chat-form"
             >
-                <label for="chatInput" class="search-label">
+
+                <label
+                    for="chatInput"
+                    class="search-label"
+                >
                     Your message
                 </label>
 
-                <input
-                    id="chatInput"
-                    name="message"
-                    type="text"
-                    placeholder="Ask me anything..."
-                    autocomplete="off"
-                    maxlength="4000"
-                    required
-                >
+                <div class="chat-input-area">
 
-                <button
-                    id="chatSend"
-                    type="submit"
-                >
-                    Send
-                </button>
+                    <input
+                        id="chatInput"
+                        name="message"
+                        type="text"
+                        placeholder="Ask me anything..."
+                        autocomplete="off"
+                        maxlength="4000"
+                        required
+                    >
+
+                    <button
+                        id="chatSend"
+                        type="submit"
+                    >
+                        Send
+                    </button>
+
+                </div>
+
             </form>
+
+
+            <!-- Chat Status -->
 
             <p
                 id="chatStatus"
@@ -268,11 +381,16 @@
             ></p>
 
         </div>
+
     </section>
 
 
-    <!-- Footer -->
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
     <footer class="footer">
+
         <div class="container">
 
             <p>
@@ -287,14 +405,20 @@
             </p>
 
         </div>
+
     </footer>
 
 
-    <!-- Portfolio JavaScript -->
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <!-- Main portfolio JavaScript -->
     <script src="script.js"></script>
 
-    <!-- Groq chatbot JavaScript -->
+    <!-- AI chatbot JavaScript -->
     <script src="chatbot.js"></script>
 
 </body>
+
 </html>
