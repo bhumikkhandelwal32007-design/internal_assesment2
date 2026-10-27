@@ -8,32 +8,31 @@ const projects = [
       title: "Book Reading List",
       description: "A simple web application for managing and organizing books to read.",
       technologies: "HTML, CSS, JavaScript",
-      github: "https://github.com/bhumikkhandelwal132007/book-reading-list"
+      github: "https://github.com/bhumikkhandelwal32007-design/internal_assesment2/tree/feae049884a1b7b3a9d230347c92905f649dacce/book-reading-list"
   },
   {
       title: "Bug Fixing",
       description: "A project focused on identifying, debugging, and fixing programming issues.",
       technologies: "Programming, Debugging",
-      github: "https://github.com/bhumikkhandelwal132007/bug-fixing"
+      github: "https://github.com/bhumikkhandelwal32007-design/internal_assesment2/tree/feae049884a1b7b3a9d230347c92905f649dacce/bug-fixing"
   },
   {
       title: "Messy Python",
       description: "A collection of Python practice programs focused on improving code structure and programming logic.",
       technologies: "Python",
-      github: "https://github.com/bhumikkhandelwal132007/messy-python"
+      github: "https://github.com/bhumikkhandelwal32007-design/internal_assesment2/tree/feae049884a1b7b3a9d230347c92905f649dacce/messy-Python"
   },
   {
       title: "Python Program",
       description: "A Python programming project created to practice programming concepts and problem solving.",
       technologies: "Python",
-      github: "https://github.com/bhumikkhandelwal132007/Python-program"
+      github: "https://github.com/bhumikkhandelwal32007-design/internal_assesment2/tree/feae049884a1b7b3a9d230347c92905f649dacce/Python%20Program"
   },
   {
       title: "Quiz Application",
       description: "An interactive quiz application that allows users to answer questions and test their knowledge.",
       technologies: "HTML, CSS, JavaScript",
-      github: "https://github.com/bhumikkhandelwal132007/Quiz"
-  }
+      github: "https://github.com/bhumikkhandelwal32007-design/internal_assesment2/tree/feae049884a1b7b3a9d230347c92905f649dacce/Quiz
 ];
 
 
